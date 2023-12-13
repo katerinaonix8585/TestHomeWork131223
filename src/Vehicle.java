@@ -6,4 +6,8 @@ public class Vehicle {
         this.brand = brand;
         this.year = year;
     }
+
+    public void  displayInfo() {
+        System.out.printf("%s, %d", this.brand, this.year);
+    }
 }
