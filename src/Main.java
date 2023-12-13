@@ -6,6 +6,8 @@ public class Main {
         Vehicle vehicle = new Vehicle("Audi", 2021);
         vehicle.displayInfo();
 
+        car.displayInfo();
+
 
 
     }

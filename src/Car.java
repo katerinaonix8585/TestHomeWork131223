@@ -8,6 +8,10 @@ public class Car extends Vehicle{
 
     @Override
     public String toString() {
-        return String.format("%s %s %d", this.model, this.brand, this.year);
+        return String.format("%s %s %d%n", this.model, this.brand, this.year);
 }
+    @Override
+    public void displayInfo(){
+        System.out.printf("%s, %d, %s%n", this.brand, this.year, this.model);
+    }
 }

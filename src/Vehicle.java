@@ -8,6 +8,6 @@ public class Vehicle {
     }
 
     public void  displayInfo() {
-        System.out.printf("%s, %d", this.brand, this.year);
+        System.out.printf("%s, %d%n", this.brand, this.year);
     }
 }
